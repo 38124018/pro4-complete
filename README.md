@@ -1,7 +1,5 @@
 # シューティングゲーム
 
-プログラミング演習 課題6 実装物（Python + pygame）
-
 ## フォルダ構成
 
 ```
@@ -24,14 +22,6 @@ shooting-game/
 │
 ├── tests/
 │   └── test_entities.py
-│
-├── docs/                     # 課題提出物一式
-│   ├── 仕様書.docx
-│   ├── 概念モデル.docx
-│   ├── 分析モデル.docx
-│   ├── 詳細設計モデル_課題6.docx
-│   ├── 詳細設計モデル_課題6.drawio
-│   └── チェックシート.docx
 │
 └── data/
     └── high_scores.json      # 実行時に自動生成（.gitignore対象）
@@ -59,10 +49,3 @@ python src/main.py
 | ゲーム画面 | SPACE | 弾を発射 |
 | ゲームオーバー画面 | SPACE | リトライ（タイトル画面に戻る） |
 | ハイスコア画面 | ESC | タイトル画面に戻る |
-
-## テスト
-
-```bash
-pip install pytest
-pytest tests/
-```
